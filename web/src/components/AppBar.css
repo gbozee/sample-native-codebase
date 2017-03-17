@@ -1,0 +1,17 @@
+.mui-appbar{
+  background-color: white;
+  color: black;
+}
+i.fa-bars{
+  color: orange;
+  padding-right: 5px;
+}
+.mui-appbar table tr:first-child{
+  vertical-align: middle;
+}
+.mui-appbar table td:first-child{
+  padding-left: 20px;
+}
+.mui-appbar td:last-child{
+  text-align: right;
+}

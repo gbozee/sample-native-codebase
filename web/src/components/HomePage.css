@@ -1,0 +1,44 @@
+.mui-form{
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.mui-form legend {
+    color: rgba(255,255,255,.87);
+}
+.mui-textfield {
+    display: inline-block;
+    width: 100%;
+}
+.mui-textfield>input, .mui-textfield>textarea {
+    color: rgba(255,255,255,.87);
+    border-bottom: 1px solid rgba(255,255,255,.26);
+    /*height: 65px;*/
+    
+}
+.fa-search{
+    position: absolute;
+    left: 50%;
+    color: rgba(255,255,255,.60);
+    font-size: 5em;
+    height: 65px;
+    margin-top: 40px;
+    margin-left: -35px;
+}
+.input-container{
+    padding-top: 50%;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #909;
+}
+.mui-textfield>textarea::placeholder { color: orange;
+ }
+.mui-textfield>textarea:focus {
+    /*height: 65px;*/
+    margin-bottom: -1px;
+}
+.mui-textfield>textarea {
+    /*height: 65px;*/
+    font-size: 3em;
+    color: orange;
+}
